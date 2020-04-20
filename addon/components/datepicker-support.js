@@ -47,6 +47,7 @@ export default Mixin.create({
         todayHighlight: this.get('todayHighlight'),
         toggleActive: this.get('toggleActive'),
         weekStart: this.get('weekStart'),
+        title: this.get('title'),
         daysOfWeekHighlighted: this.get('daysOfWeekHighlighted'),
         datesDisabled: this.get('datesDisabled')
       }).
