@@ -81,7 +81,7 @@ export default Mixin.create({
   }),
 
   teardownBootstrapDatepicker: on('willDestroyElement', function() {
-    this.$().datepicker('destroy');
+    this.element.datepicker('destroy');
   }),
 
   didChangeValue: observer('value', function() {
